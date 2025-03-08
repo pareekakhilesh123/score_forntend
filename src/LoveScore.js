@@ -47,7 +47,7 @@ const LoveScore = () => {
           </Typography>
           <Box sx={{ backgroundColor: "#fff", p: 3, borderRadius: 2, boxShadow: 3 }}>
             <TextField
-              label="First Name"
+              label="Own Name"
               variant="outlined"
               fullWidth
               margin="normal"
@@ -57,7 +57,7 @@ const LoveScore = () => {
               helperText={error && !name1.trim() ? "Enter first name" : ""}
             />
             <TextField
-              label="Second Name"
+              label="Other Name"
               variant="outlined"
               fullWidth
               margin="normal"
