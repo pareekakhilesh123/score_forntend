@@ -18,7 +18,7 @@ const LoveScore = () => {
     }
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:3001/love-score", {
+      const response = await axios.post("https://score-backend-976f.onrender.com/love-score", {
         name1,
         name2,
       });
